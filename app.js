@@ -33,7 +33,7 @@ con.connect(function (err) {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello bacha");
+  res.send("Data Base Getting");
 });
 
 app.get("/getfeedback", (req, res) => {
